@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
+}
+.h1-rel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px groove #000;
+    border-top: 7px groove ;
+    border-bottom: 7px groove ;
+    background-color: #89cefd;
+}
+input{ 
+    width: 150px;
+    height: auto;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 0px 0px;
+    font-size: 34px;
+    text-align: center;
+    padding: 0;
+    background-color:#56bdec;
+    color:black;
+}
+input:hover{
+    background-color: #7fff00;
+}
